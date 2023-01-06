@@ -24,8 +24,6 @@ sudo apt install -y kde-standard
 
 #### Cuando se ha completado todo (puede tardar 5-10 minutos), cierra sesión y cuando llegas al menú de iniciar sesión, selecciona la opcion de Plasma (X11) (dando al icono de abajo-derecha)
 
-![](./img/selPlasma.png)
-
 ## Arreglar teclado de sddm
 
 Otra cosa con sddm, siempre abrirá el teclado que ocupa toda la pantalla, por eso hacemos estos comandos para arreglarlo:
