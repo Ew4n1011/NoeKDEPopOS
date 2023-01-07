@@ -2,7 +2,7 @@ FROM deloo/markdown-docs AS builder
 
 COPY . /home/src
 ENV WORKSPACE=/home/src
-ENV TITLE=KDE Pop OS Guide
+ENV TITLE=Guía KDE Pop OS
 ENV LANGUAGE=es
 RUN makedocs "." "dst"
 
