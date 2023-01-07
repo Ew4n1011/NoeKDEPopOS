@@ -8,4 +8,4 @@ RUN makedocs "." "dst"
 
 FROM nginx
 
-COPY --from=builder /home/dst /usr/share/nginx/html
+COPY --from=builder /home/src/dst /usr/share/nginx/html
